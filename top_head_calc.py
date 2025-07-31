@@ -27,9 +27,7 @@ def multiply(x, y):  # type: ignore
 
 
 def divide(x, y):  # type: ignore
-    if y == 0:
-        return "Error! Division by zero."  # Avoiding math disasters! 😅
-    return x / y  # type: ignore #➗
+    return "Error! Division by zero." if y == 0 else x / y # type: ignore
 
 # Step 3: Now, let's ask the user what math operation they want to do!
 def math_operation():
@@ -38,8 +36,7 @@ def math_operation():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
-    choice = int(input("Enter the number of your choice (1-4): "))
-    return choice
+    return int(input("Enter the number of your choice (1-4): "))
 
 
 #step 4: Let's run the calculator!

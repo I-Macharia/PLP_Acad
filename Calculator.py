@@ -25,7 +25,7 @@ product_result = num1 * num2
 quotient_result = num1 / num2
 
 # Step 4: Show the user what we got! 🥳 Time for the big reveal! 🎉
-print(f"Results of your two numbers:")
+print("Results of your two numbers:")
 print(f"Sum: {sum_result}")  # ➕
 print(f"Difference: {difference_result}")  # ➖
 print(f"Product: {product_result}")  # ✖️
