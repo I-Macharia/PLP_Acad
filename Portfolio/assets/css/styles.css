@@ -1,0 +1,141 @@
+    /* styles.css */
+    /* Reset some default styles */
+
+    #main {
+        width: flex;
+        height: flex;
+        border: 1px solid black;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+    }
+    
+    /* Style the navigation list items (links) */
+    .navigation li {
+                    display: block;
+                    margin: 0;
+                    color: rgb(139, 252, 227);
+                    background-color: rgba(99, 33, 206, 0.411);
+                    white-space: wrap;
+                }
+    
+    /* Style the navigation links */
+    .navigation a {
+        text-decoration: none;
+        color: rgb(139, 252, 227);
+        font-weight: bold;
+        padding: 10px;
+        justify-content: center;
+        transition: color 0.5s;
+    }
+    
+    /* Style the navigation links on hover */
+    .navigation a:hover {
+                    background-color: rgba(99, 33, 206, 0.411);
+                    color: rgb(139, 252, 227);;
+                    white-space: wrap;
+                    justify-content: center;
+                }
+    
+    /* Style the footer */
+    
+    footer {
+                background-color: rgba(99, 33, 206, 0.411);
+                color: rgb(139, 252, 227);
+                text-align: center;
+                padding: 10px;
+                clear: both; /* Clear floating elements */
+                margin: 10px;
+            }
+    
+        
+            /* Add your custom CSS styles here */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: rgb(139, 252, 227);
+                align-items: top;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+            }
+    
+            header {
+                background-color: rgba(99, 33, 206, 0.411);
+                color: rgb(139, 252, 227);
+                text-align: center;
+                justify-content: center;
+                padding: 10px;
+                margin: 10px;
+            }
+    
+            header h2 {
+                margin: 0;
+                justify-content: center;
+                color: black;
+            }
+    
+            header h3 {
+                margin: 0;
+                justify-content: center;
+                color: black;
+            }
+    
+            .navigation {
+                list-style: none;
+                padding: 0;
+            }
+    
+            .navigation li {
+                display: inline;
+                margin-right: 10px;
+            }
+    
+            .navigation a {
+                text-decoration: none;
+                color: rgb(139, 252, 227);
+            }
+    
+            .container {
+                min-height: 100vh; /* Ensure the container is at least the height of the viewport */
+                display: flex;
+                /* flex-direction: center; */
+                align-items: top;
+                justify-content: center;
+                background-color: #92cece;
+                padding: 20px;
+                margin: 20px;
+            }
+            .container_img {
+                column-count: 3;
+            }
+
+            .about{
+                background-color: rgba(99, 33, 206, 0.411);
+                    color: black;
+                    text-align: center;
+                    padding: 10px;
+                    clear: both;
+                    /* Clear floating elements */
+                    margin: 10px;}
+
+            .about-item {
+                min-height: 100vh; /* Allow the about section to take available space */
+                background-color: rgb(139, 252, 227);
+                justify-content: center;
+                padding: 20px;
+                margin-right: 20px;
+                border-radius: 5px;
+            }
+
+            .blog {
+                flex: 100px; /* Expand the iframe section to fill available space */
+                background-color: rgba(99, 33, 206, 0.411);
+                padding: 0px;
+                margin: 0px;
+            }
+    
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
