@@ -4,7 +4,7 @@ My personal portfolio website showcasing my work as a Data Scientist, Front-end 
 
 ## 🌐 Live Website
 
-**Visit my portfolio:** [https://i-macharia.github.io/Portfolio/](https://i-macharia.github.io/Portfolio/)
+**Visit my portfolio:** [https://i-macharia.github.io/Portfolio/](https://i-macharia.github.io/PLP_Acad/index.html)
 
 ## 👨‍💻 About Me
 
@@ -20,7 +20,7 @@ I combine creative vision with technical discipline to build thoughtful, usable 
 
 ## 🔗 Connect With Me
 
-- **Portfolio**: [Live Website]([https://i-macharia.github.io/Portfolio/](https://i-macharia.github.io/PLP_Acad/index.html))
+- **Portfolio**: [Live Website](https://i-macharia.github.io/PLP_Acad/index.html)
 - **Blog**: [Bob Chronicles](https://bobchronicles.wordpress.com/)
 - **Newsletter**: [Substack](https://machariagichoya.substack.com/)
 
