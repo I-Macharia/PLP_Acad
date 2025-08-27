@@ -1,1 +1,1 @@
-drop database demo
+drop database demo;
