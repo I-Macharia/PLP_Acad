@@ -1,1 +1,6 @@
-**/.git
+# Ignore nested git repositories
+**/wk-*-I-Macharia/
+**/wk-*-assignment/
+**/Ubuntu_Requests/
+**/Python_Data_Analysis/
+**/july-2025-*-I-Macharia/
